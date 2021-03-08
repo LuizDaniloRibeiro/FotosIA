@@ -1,0 +1,96 @@
+/* Folha de Estilo do App */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h1{
+    color:  rgb(255, 136, 0);
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 90vh; /*A mediada vh é 90/100 da altura do dispositivo, ou seja uma TV de 1080px dá 972px */
+    
+}
+
+.gif{
+    margin-top: 25px;
+}
+
+
+img{
+    width: 100px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+}
+
+
+button{
+    background-color: rgb(255, 136, 0);
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin: 5px;
+    margin-top: 50px; /*Interna */
+    padding: 10px; /*Externa*/
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(255, 157, 0);
+    color: #ffffff;
+    
+}
+
+label{
+    font-size: 15px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    margin-top: 15px;
+    margin: 10px;
+}
+
+.idade{
+    background-color: rgb(255, 136, 0);
+    color: #ffffff;
+    
+    font-size: 15px;
+   
+    font-family: 'Montserrat Subrayada', sans-serif;
+    padding: 5px;
+}
+
+.etnia{
+    background-color: rgb(255, 136, 0);
+    color: #ffffff;
+    
+    font-size: 15px;
+  
+    font-family: 'Montserrat Subrayada', sans-serif;
+    padding: 5px;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
